@@ -1,0 +1,21 @@
+# Dependencies
+node_modules
+
+# Yarn 3 files
+.pnp.*
+.yarn/*
+!**/.yarn/patches
+!**/.yarn/plugins
+!**/.yarn/releases
+!**/.yarn/sdks
+!**/.yarn/versions
+
+# dotenv environment variables file
+.env
+.env.test
+
+# Build output
+dist
+dist-types
+dist-scalprum
+dist-dynamic

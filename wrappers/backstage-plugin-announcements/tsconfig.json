@@ -1,0 +1,11 @@
+{
+  "extends": "@backstage/cli/config/tsconfig.json",
+  "include": ["src"],
+  "exclude": ["node_modules", ".yarn", "dist"],
+  "compilerOptions": {
+    "outDir": "dist-types",
+    "rootDir": ".",
+    "skipLibCheck": true,
+    "jsx": "preserve",
+  }
+}
